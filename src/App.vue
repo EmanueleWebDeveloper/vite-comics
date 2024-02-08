@@ -5,6 +5,7 @@ import FooterTop from './components/FooterTop.vue';
 import FooterMain from './components/FooterMain.vue';
 import FooterBottom from './components/FooterBottom.vue';
 import '@fontsource/pt-sans-narrow';
+import AppCard from './components/AppCard.vue';
 
 export default {
   components: {
@@ -12,7 +13,8 @@ export default {
     AppMain,
     FooterTop,
     FooterMain,
-    FooterBottom
+    FooterBottom,
+    AppCard
   }
 }
 </script>
@@ -20,6 +22,7 @@ export default {
 <template>
   <AppHeader />
   <AppMain />
+  <AppCard/>
   <FooterTop />
   <FooterMain/>
   <FooterBottom/>
