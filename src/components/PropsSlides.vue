@@ -22,11 +22,15 @@
   .contenitore{
     flex-basis: calc( 100% / 6 - 20px);
     padding: 10px;
+    h4{
+            color: white;
+        }
     
     figure{
         img{
             width: 100%;
-            display: block;    
+            display: block; 
+            aspect-ratio: 1;   
             }
     }
   }
